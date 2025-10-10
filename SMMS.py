@@ -42,6 +42,7 @@ class StudentManagementSystem:
     
 
 
+
     def avg_marks(self, roll):  #Getting Average marks of the student
         with open(self.filename, "r", newline="") as fp:
             reader = csv.reader(fp)
