@@ -53,11 +53,6 @@ class StudentManagementSystem:
             avg = sum(lst)/len(lst)
             print(f"Average marks of {row[0]} roll number {row[1]} is:", avg)
 
-# Example usage:
-s1 = StudentManagementSystem()
-#s1.new_student("Spark", "1", "[22,33,44,55]")
-#s1.new_student("Mohan", "2", "[23,34,45,56]")
-
 
 print("-----------------------------------------------------Welcome to the Student Marks Management System!!-----------------------------------------------------")
 #print("Welcome to the Student Marks Management System!!")
@@ -81,7 +76,7 @@ while True:
         number_of_subjects = int(input("Enter number of Subjects for student:"))
         marks = []
         print("Enter marks of all the subjects, on by one please.")
-        
+
         for i in range(0,number_of_subjects):
             marks.append(int(input("Enter marks:")))
         StudentManagementSystem().new_student(name, roll, marks)
