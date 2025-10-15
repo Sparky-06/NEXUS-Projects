@@ -39,11 +39,11 @@ The App runs locally on:
 ```
 All available app routes:
 ```bash
-- /records  ->(Display all records)
-- /records/add_record   ->(Add student record)
-- /records/update/<roll number>   ->(Update record of student w/ roll number)
-- /records/delete/<roll number>  ->(Delete record of student w/ roll number)
-- /records/average/<roll number>    ->(Display average marks of student with roll number)
+- /records  #(Display all records)
+- /records/add_record   #(Add student record)
+- /records/update/<roll number>   #(Update record of student w/ roll number)
+- /records/delete/<roll number>  #(Delete record of student w/ roll number)
+- /records/average/<roll number>    #(Display average marks of student with roll number)
 ```
 The POST and PUT methods should be entered in the following syntax:
 ```bash
