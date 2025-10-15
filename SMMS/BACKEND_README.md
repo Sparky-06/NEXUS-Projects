@@ -36,8 +36,6 @@ Clone repository:
 The App runs locally on:
 ```bash
 - http://localhost:5000
-(you can go to different routes from here like - '/records' - To get
- all records, '/records/add_record' - To add a student record, etc.)
 ```
 All available app routes:
 ```bash
