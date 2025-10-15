@@ -27,17 +27,17 @@ It supports basic CRUD operations — Create, Read, Update, and Delete — along
 
 ## Installation & Usage
 
-Clone repository:
+#### Clone repository:
 
 ```bash
 - git clone https://github.com/yourusername/student-marks-management.git
 - cd student-marks-management
 ```
-The App runs locally on:
+#### The App runs locally on:
 ```bash
 - http://localhost:5000
 ```
-All available app routes:
+#### All available app routes:
 ```bash
 - /records                          #(Display all records)
 - /records/add_record               #(Add student record)
@@ -45,9 +45,9 @@ All available app routes:
 - /records/delete/<roll number>     #(Delete record of student w/ roll number)
 - /records/average/<roll number>    #(Display average marks of student with roll number)
 ```
-The POST and PUT methods should be entered in the following syntax:
-```bash
+#### The POST and PUT methods should be entered in the following syntax:
 Example: roll = 1, name = John Doe and marks = [85, 90, 95]
+```bash
 {
   "roll": 1,
   "name": "John Doe",
